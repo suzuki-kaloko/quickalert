@@ -153,15 +153,15 @@ class QuickAlertContainer extends StatelessWidget {
   String? whatTitle() {
     switch (options!.type) {
       case QuickAlertType.success:
-        return 'Success';
+        return 'aaaaSuccess';
       case QuickAlertType.error:
-        return 'Error';
+        return 'aaaaError';
       case QuickAlertType.warning:
-        return 'Warning';
+        return 'aaaaWarning';
       case QuickAlertType.confirm:
-        return 'Are You Sure?';
+        return 'aaaaAre You Sure?';
       case QuickAlertType.info:
-        return 'Info';
+        return 'aaaaInfo';
       case QuickAlertType.custom:
         return null;
       case QuickAlertType.loading:
